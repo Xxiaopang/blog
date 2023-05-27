@@ -1,0 +1,23 @@
+Server:
+  #gin运行模式:'dev','env'
+  Mode : dev
+    #运行的端口号
+  Port : 8090
+
+#mysql相关配置
+database:
+  user : root
+  pwd  : mima
+  host : 127.0.0.1
+  port : 3306
+  db   : blog
+  option : "charset=utf8mb4&parseTime=True&loc=Local"
+
+Redis:
+  Addr : "127.0.0.1:6379"
+  pwd  : ""
+  DB : 0
+
+JWT:
+  key : "@nil==?l"
+  header : diyHeader
